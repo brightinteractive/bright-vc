@@ -1,0 +1,8 @@
+/.idea/
+/.tox/
+/MANIFEST
+/build/
+/dist/
+*.egg-info/
+*.iml
+*.pyc
