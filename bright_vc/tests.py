@@ -17,8 +17,7 @@ class TagCheckTests(unittest.TestCase):
         bright_vc.check_tag("v10.20.30")
 
     def test_invalid_tag_not_accepted(self):
-        with self.assertRaises(Exception):
-            bright_vc.check_tag("v10.20.30b")
+        self.assertRaises(Exception, bright_vc.check_tag, "v10.20.30b")
 
 if __name__ == '__main__':
     unittest.main()
