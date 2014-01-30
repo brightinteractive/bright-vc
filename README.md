@@ -37,6 +37,11 @@ then simply run `tox`:
 Changelog
 =========
 
+1.1.0
+-----
+
+* Added support for alpha, beta and pre-release versions (e.g. 1.0.0a4)
+
 1.0.0
 -----
 

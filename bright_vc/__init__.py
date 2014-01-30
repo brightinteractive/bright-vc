@@ -18,7 +18,7 @@ __version__ = '1.0.0'
 
 
 # Constants
-VERSION_PATTERN = """[0-9]+\.[0-9]+\.[0-9]+$"""
+VERSION_PATTERN = """[0-9]+\.[0-9]+\.[0-9]+((a|b|pr)[0-9]+)?$"""
 VERSION_RE = re.compile(VERSION_PATTERN)
 TAG_RE = re.compile("""v""" + VERSION_PATTERN)
 
