@@ -47,6 +47,9 @@ then simply run `tox`:
 
 Changelog
 =========
+1.1.1
+-----
+* Support Python 3
 
 1.1.0
 -----

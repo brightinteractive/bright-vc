@@ -14,7 +14,7 @@ import re
 
 
 # Version number of the bright_vc package 
-__version__ = '1.1.0'
+__version__ = '1.1.1'
 
 
 # Constants
